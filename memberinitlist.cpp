@@ -13,4 +13,10 @@ public:
             //member initialization List
             //definisi
         }
+
+    ~mahasiswa(){
+        cout << "Id    = " << id << endl;
+        cout << "Nama  = " << nama << endl;
+        cout << "Nilai = " << nilai << endl;
+    }
 };
